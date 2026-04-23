@@ -47,8 +47,8 @@ Please install the required packages according to your environment.
 The dataset used in this study is publicly available at:
 
 ## Dataset
-The dataset used in this study is publicly available:
-[Strawberry Nutrient Deficiency Dataset](https://drive.google.com/drive/folders/1HeB-U_AUlxknExO_jJNN7_J5-YbYxvSS?usp=sharing)
+
+The dataset used in this study is publicly available [here](https://drive.google.com/drive/folders/1HeB-U_AUlxknExO_jJNN7_J5-YbYxvSS?usp=sharing).
 
 After downloading the dataset, please unzip it and place the `datasets/` directory in the root of this repository.
 

@@ -28,3 +28,57 @@ The model adopts front-end multi-scale edge feature enhancement, dual-domain spa
 ├── train.py              # Training script
 ├── test.py               # Testing / inference script
 └── README.md
+
+
+---
+
+## Requirements
+
+- Python 3.8+
+- PyTorch
+- CUDA (optional, recommended for training and inference)
+
+Please install the required packages according to your environment.
+
+---
+
+## Dataset
+
+The dataset used in this study is publicly available at:
+
+[Dataset Download Link](https://drive.google.com/drive/folders/1HeB-U_AUlxknExO_jJNN7_J5-YbYxvSS?usp=sharing)
+
+After downloading the dataset, please unzip it and place the `datasets/` directory in the root of this repository.
+
+
+
+---
+
+## Training
+
+To train DSLNDD-Net on your own machine:
+
+1. Download the dataset from the link above.
+2. Unzip the dataset and move the `datasets/` folder to the root directory of this repository.
+3. Check the configuration file and training settings.
+4. Run:
+
+~~~bash
+python train.py
+~~~
+
+---
+
+## Testing
+
+To evaluate the model or perform inference, please check the arguments in `test.py` and run:
+
+~~~bash
+python test.py
+~~~
+
+---
+
+## Code Availability
+
+This code is released for academic research purposes only.
